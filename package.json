@@ -1,0 +1,27 @@
+{
+  "name": "discord-getting-started",
+  "version": "1.0.0",
+  "description": "Basic Discord app using interactions",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Shay DeWael",
+  "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "discord-interactions": "^3.2.0",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "keywords": [
+    "discord",
+    "node"
+  ]
+}
